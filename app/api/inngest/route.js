@@ -1,5 +1,5 @@
 import { serve } from "inngest/next";
-import { inngest } from "../../../inngest/client";
+
 import {
   syncUserCreation,
   syncUserDeletion,
@@ -19,7 +19,7 @@ export const { GET, POST, PUT } = serve({
     syncKind,
     Syncopate,
     syncUserUpdating,
-    createUserOrder,
+    //createUserOrder,
 
     /* your functions will be passed here later! */
   ],
