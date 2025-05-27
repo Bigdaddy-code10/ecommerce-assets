@@ -16,9 +16,6 @@ export const { GET, POST, PUT } = serve({
   functions: [
     syncUserCreation,
     syncUserDeletion,
-    syncIndexes,
-    syncKind,
-    Syncopate,
     syncUserUpdating,
     //createUserOrder,
 
